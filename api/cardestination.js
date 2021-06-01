@@ -50,7 +50,7 @@ module.exports = (req, res) => {
       let promiseArr = [];
       data.forEach((e) => promiseArr.push(runUpdate(e)));
       Promise.all(promiseArr)
-        .then((rest) => res.json(rest))
+        .then((rest) => res.json(rest[0]))
         .catch((err) => console.log(err));
     });
 };
