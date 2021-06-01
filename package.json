@@ -1,0 +1,22 @@
+{
+  "name": "hotel-serverless-api",
+  "version": "1.0.0",
+  "description": "Serverless API для сайта бронирования отелей",
+  "main": "users.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SkaJazz/hotel-serverless-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SkaJazz/hotel-serverless-api/issues"
+  },
+  "homepage": "https://github.com/SkaJazz/hotel-serverless-api#readme",
+  "dependencies": {
+    "mongodb": "^3.6.9"
+  }
+}
