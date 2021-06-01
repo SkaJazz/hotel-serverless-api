@@ -2,7 +2,7 @@
   "name": "hotel-serverless-api",
   "version": "1.0.0",
   "description": "Serverless API для сайта бронирования отелей",
-  "main": "users.js",
+  "main": "./api/users.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,11 +17,9 @@
   },
   "homepage": "https://github.com/SkaJazz/hotel-serverless-api#readme",
   "dependencies": {
-    "mongodb": "^3.6.9"
+    "mongodb": "^3.6.9",
+    "mongoose": "^5.12.12",
+    "node-fetch": "^2.6.1"
   },
-  "devDependencies": {
-    "webpack": "^5.38.1",
-    "webpack-cli": "^4.7.0",
-    "webpack-dev-server": "^3.11.2"
-  }
+  "devDependencies": {}
 }
